@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=javaproject-githubaction
-          -Dsonar.projectKey=devsecopsganodejsprojectkey
+          -Dsonar.projectKey=devsecopsgithubactionsnodejsproject
   security:
     runs-on: ubuntu-latest
     needs: build
